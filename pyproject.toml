@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langgraph-workflow-example"
+version = "0.1.0"
+description = "A simple LangGraph workflow example for teaching AI workflows"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "workflows"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.0"
+langchain-openai = "^0.1.0"
+langgraph = "^0.2.0"
+typing-extensions = "^4.0.0"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
